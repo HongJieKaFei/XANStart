@@ -1,0 +1,6 @@
+framework module Pods_XANStart {
+  umbrella header "Pods-XANStart-umbrella.h"
+
+  export *
+  module * { export * }
+}

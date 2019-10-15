@@ -16,6 +16,13 @@
 		04FED18123559F02000BFE88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED18023559F02000BFE88 /* main.m */; };
 		04FED18B23559F02000BFE88 /* XANStartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED18A23559F02000BFE88 /* XANStartTests.m */; };
 		04FED19623559F02000BFE88 /* XANStartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED19523559F02000BFE88 /* XANStartUITests.m */; };
+		04FED1AE2355A0DE000BFE88 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1AD2355A0DE000BFE88 /* Public.m */; };
+		04FED1B12355A10D000BFE88 /* GrobalConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1B02355A10D000BFE88 /* GrobalConsts.m */; };
+		04FED1B52355A14F000BFE88 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1B42355A14F000BFE88 /* TabBarController.m */; };
+		04FED1B92355A167000BFE88 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1B82355A167000BFE88 /* NavigationController.m */; };
+		04FED1BD2355A19E000BFE88 /* NetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1BC2355A19E000BFE88 /* NetworkEngine.m */; };
+		04FED1C02355A1B6000BFE88 /* NetworkEngine+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1BF2355A1B6000BFE88 /* NetworkEngine+Login.m */; };
+		BA1EF93F14C1D15BAB2AB75B /* libPods-XANStart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83598DC7CF8152436C21E5F6 /* libPods-XANStart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,22 @@
 		04FED19123559F02000BFE88 /* XANStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XANStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FED19523559F02000BFE88 /* XANStartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANStartUITests.m; sourceTree = "<group>"; };
 		04FED19723559F02000BFE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FED1AB2355A0AB000BFE88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04FED1AC2355A0DE000BFE88 /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		04FED1AD2355A0DE000BFE88 /* Public.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
+		04FED1AF2355A10D000BFE88 /* GrobalConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrobalConsts.h; sourceTree = "<group>"; };
+		04FED1B02355A10D000BFE88 /* GrobalConsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrobalConsts.m; sourceTree = "<group>"; };
+		04FED1B32355A14F000BFE88 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		04FED1B42355A14F000BFE88 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		04FED1B72355A167000BFE88 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		04FED1B82355A167000BFE88 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		04FED1BB2355A19E000BFE88 /* NetworkEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkEngine.h; sourceTree = "<group>"; };
+		04FED1BC2355A19E000BFE88 /* NetworkEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkEngine.m; sourceTree = "<group>"; };
+		04FED1BE2355A1B6000BFE88 /* NetworkEngine+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkEngine+Login.h"; sourceTree = "<group>"; };
+		04FED1BF2355A1B6000BFE88 /* NetworkEngine+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetworkEngine+Login.m"; sourceTree = "<group>"; };
+		66EF7C19D2E7FF4D61821A9C /* Pods-XANStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANStart.debug.xcconfig"; path = "Target Support Files/Pods-XANStart/Pods-XANStart.debug.xcconfig"; sourceTree = "<group>"; };
+		71175102FE072A101232A380 /* Pods-XANStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANStart.release.xcconfig"; path = "Target Support Files/Pods-XANStart/Pods-XANStart.release.xcconfig"; sourceTree = "<group>"; };
+		83598DC7CF8152436C21E5F6 /* libPods-XANStart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XANStart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1EF93F14C1D15BAB2AB75B /* libPods-XANStart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +111,8 @@
 				04FED18923559F02000BFE88 /* XANStartTests */,
 				04FED19423559F02000BFE88 /* XANStartUITests */,
 				04FED16C23559F00000BFE88 /* Products */,
+				58C4BE5BE1944780CE6BDE7D /* Pods */,
+				9966C140362BF71A6AD809E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +129,11 @@
 		04FED16D23559F00000BFE88 /* XANStart */ = {
 			isa = PBXGroup;
 			children = (
-				04FED16E23559F00000BFE88 /* AppDelegate.h */,
-				04FED16F23559F00000BFE88 /* AppDelegate.m */,
+				04FED1A523559FB7000BFE88 /* General */,
+				04FED1A423559F69000BFE88 /* SupportingFiles */,
+				04FED1A323559F3C000BFE88 /* AppDelegate */,
 				04FED17123559F00000BFE88 /* ViewController.h */,
 				04FED17223559F00000BFE88 /* ViewController.m */,
-				04FED17423559F00000BFE88 /* Main.storyboard */,
-				04FED17A23559F02000BFE88 /* Assets.xcassets */,
-				04FED17C23559F02000BFE88 /* LaunchScreen.storyboard */,
-				04FED17F23559F02000BFE88 /* Info.plist */,
-				04FED18023559F02000BFE88 /* main.m */,
-				04FED17723559F00000BFE88 /* XANStart.xcdatamodeld */,
 			);
 			path = XANStart;
 			sourceTree = "<group>";
@@ -135,6 +156,121 @@
 			path = XANStartUITests;
 			sourceTree = "<group>";
 		};
+		04FED1A323559F3C000BFE88 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				04FED16E23559F00000BFE88 /* AppDelegate.h */,
+				04FED16F23559F00000BFE88 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		04FED1A423559F69000BFE88 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				04FED17423559F00000BFE88 /* Main.storyboard */,
+				04FED17A23559F02000BFE88 /* Assets.xcassets */,
+				04FED17C23559F02000BFE88 /* LaunchScreen.storyboard */,
+				04FED17F23559F02000BFE88 /* Info.plist */,
+				04FED18023559F02000BFE88 /* main.m */,
+				04FED17723559F00000BFE88 /* XANStart.xcdatamodeld */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		04FED1A523559FB7000BFE88 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1A923559FFA000BFE88 /* Macro（项目的配置，网络，基类） */,
+				04FED1A823559FE7000BFE88 /* Modules(项目的所有模块) */,
+				04FED1A723559FD2000BFE88 /* Category */,
+				04FED1A623559FBC000BFE88 /* Libs */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		04FED1A623559FBC000BFE88 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		04FED1A723559FD2000BFE88 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04FED1A823559FE7000BFE88 /* Modules(项目的所有模块) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Modules(项目的所有模块)";
+			sourceTree = "<group>";
+		};
+		04FED1A923559FFA000BFE88 /* Macro（项目的配置，网络，基类） */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1BA2355A177000BFE88 /* NetworkEngine */,
+				04FED1B22355A11A000BFE88 /* MainArchitecture */,
+				04FED1AA2355A091000BFE88 /* Public */,
+			);
+			path = "Macro（项目的配置，网络，基类）";
+			sourceTree = "<group>";
+		};
+		04FED1AA2355A091000BFE88 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1AB2355A0AB000BFE88 /* PrefixHeader.pch */,
+				04FED1AC2355A0DE000BFE88 /* Public.h */,
+				04FED1AD2355A0DE000BFE88 /* Public.m */,
+				04FED1AF2355A10D000BFE88 /* GrobalConsts.h */,
+				04FED1B02355A10D000BFE88 /* GrobalConsts.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		04FED1B22355A11A000BFE88 /* MainArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1B32355A14F000BFE88 /* TabBarController.h */,
+				04FED1B42355A14F000BFE88 /* TabBarController.m */,
+				04FED1B72355A167000BFE88 /* NavigationController.h */,
+				04FED1B82355A167000BFE88 /* NavigationController.m */,
+			);
+			path = MainArchitecture;
+			sourceTree = "<group>";
+		};
+		04FED1BA2355A177000BFE88 /* NetworkEngine */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1BB2355A19E000BFE88 /* NetworkEngine.h */,
+				04FED1BC2355A19E000BFE88 /* NetworkEngine.m */,
+				04FED1BE2355A1B6000BFE88 /* NetworkEngine+Login.h */,
+				04FED1BF2355A1B6000BFE88 /* NetworkEngine+Login.m */,
+			);
+			path = NetworkEngine;
+			sourceTree = "<group>";
+		};
+		58C4BE5BE1944780CE6BDE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66EF7C19D2E7FF4D61821A9C /* Pods-XANStart.debug.xcconfig */,
+				71175102FE072A101232A380 /* Pods-XANStart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9966C140362BF71A6AD809E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83598DC7CF8152436C21E5F6 /* libPods-XANStart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FED19A23559F02000BFE88 /* Build configuration list for PBXNativeTarget "XANStart" */;
 			buildPhases = (
+				8E411C431B94177015F159A7 /* [CP] Check Pods Manifest.lock */,
 				04FED16723559F00000BFE88 /* Sources */,
 				04FED16823559F00000BFE88 /* Frameworks */,
 				04FED16923559F00000BFE88 /* Resources */,
@@ -260,14 +397,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E411C431B94177015F159A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XANStart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04FED16723559F00000BFE88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FED1B52355A14F000BFE88 /* TabBarController.m in Sources */,
+				04FED1B12355A10D000BFE88 /* GrobalConsts.m in Sources */,
+				04FED1C02355A1B6000BFE88 /* NetworkEngine+Login.m in Sources */,
 				04FED17923559F00000BFE88 /* XANStart.xcdatamodeld in Sources */,
 				04FED17323559F00000BFE88 /* ViewController.m in Sources */,
 				04FED18123559F02000BFE88 /* main.m in Sources */,
+				04FED1B92355A167000BFE88 /* NavigationController.m in Sources */,
+				04FED1BD2355A19E000BFE88 /* NetworkEngine.m in Sources */,
+				04FED1AE2355A0DE000BFE88 /* Public.m in Sources */,
 				04FED17023559F00000BFE88 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,35 +605,43 @@
 		};
 		04FED19B23559F02000BFE88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EF7C19D2E7FF4D61821A9C /* Pods-XANStart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z6X23HHY8;
-				INFOPLIST_FILE = XANStart/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Github/XANStart/XANStart/XANStart/General/Macro（项目的配置，网络，基类）/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/XANStart/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongkeyuan.XANStart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04FED19C23559F02000BFE88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71175102FE072A101232A380 /* Pods-XANStart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z6X23HHY8;
-				INFOPLIST_FILE = XANStart/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Github/XANStart/XANStart/XANStart/General/Macro（项目的配置，网络，基类）/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/XANStart/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongkeyuan.XANStart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
