@@ -9,7 +9,47 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+//获得RGB颜色
+#define XANRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
+//#pragma mark - 16进制色值转RGB
+#define UIColorFromRGBHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//背景色
+#define XANViewBackgroundColor XANRGBColor(220, 220, 220)
+//线的颜色
+#define XANLineColor UIColorFromRGBHex(0xf3f3f3)
+
+//宽
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+//高
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+//苹果5/5S/5C
+#define IPhone5 ([UIScreen mainScreen].bounds.size.height==568)
+//苹果6/6S/7/8
+#define IPhone6 ([UIScreen mainScreen].bounds.size.height==667)
+//苹果6Plus/6SPlus/7Plus/8Plus
+#define IPhone6P ([UIScreen mainScreen].bounds.size.height==736)
+//苹果IPhoneX XS
+#define IPhoneX ([UIScreen mainScreen].bounds.size.height==812)
+//苹果IPhoneXSMAX  XR
+#define IPhoneXRMAX ([UIScreen mainScreen].bounds.size.height==896)
+
+
+//导航栏高度
+#define NaviHeight IPhoneX ? 88 : (IPhoneXRMAX ? 88 : 64)
+//Tabbar高度
+#define TabbarHeight IPhoneX ? 83 : (IPhoneXRMAX ? 83 : 49)
+//底部高度
+#define BottomHeight IPhoneX ? 34 : (IPhoneXRMAX ? 34 : 0)
+
+//自定义Log
+#ifdef DEBUG
+#define XANLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define XANLog(...)
+#endif
 
 
 #endif /* PrefixHeader_pch */

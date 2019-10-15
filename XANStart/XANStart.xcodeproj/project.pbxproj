@@ -22,6 +22,10 @@
 		04FED1B92355A167000BFE88 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1B82355A167000BFE88 /* NavigationController.m */; };
 		04FED1BD2355A19E000BFE88 /* NetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1BC2355A19E000BFE88 /* NetworkEngine.m */; };
 		04FED1C02355A1B6000BFE88 /* NetworkEngine+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1BF2355A1B6000BFE88 /* NetworkEngine+Login.m */; };
+		04FED1C82355B98D000BFE88 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1C72355B98D000BFE88 /* HomeViewController.m */; };
+		04FED1CC2355B9A1000BFE88 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1CB2355B9A1000BFE88 /* MessageViewController.m */; };
+		04FED1D02355B9B9000BFE88 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1CF2355B9B9000BFE88 /* OrderViewController.m */; };
+		04FED1D42355B9D0000BFE88 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FED1D32355B9D0000BFE88 /* MineViewController.m */; };
 		BA1EF93F14C1D15BAB2AB75B /* libPods-XANStart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83598DC7CF8152436C21E5F6 /* libPods-XANStart.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +77,14 @@
 		04FED1BC2355A19E000BFE88 /* NetworkEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkEngine.m; sourceTree = "<group>"; };
 		04FED1BE2355A1B6000BFE88 /* NetworkEngine+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkEngine+Login.h"; sourceTree = "<group>"; };
 		04FED1BF2355A1B6000BFE88 /* NetworkEngine+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetworkEngine+Login.m"; sourceTree = "<group>"; };
+		04FED1C62355B98D000BFE88 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04FED1C72355B98D000BFE88 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		04FED1CA2355B9A1000BFE88 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		04FED1CB2355B9A1000BFE88 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		04FED1CE2355B9B9000BFE88 /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		04FED1CF2355B9B9000BFE88 /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		04FED1D22355B9D0000BFE88 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		04FED1D32355B9D0000BFE88 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		66EF7C19D2E7FF4D61821A9C /* Pods-XANStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANStart.debug.xcconfig"; path = "Target Support Files/Pods-XANStart/Pods-XANStart.debug.xcconfig"; sourceTree = "<group>"; };
 		71175102FE072A101232A380 /* Pods-XANStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANStart.release.xcconfig"; path = "Target Support Files/Pods-XANStart/Pods-XANStart.release.xcconfig"; sourceTree = "<group>"; };
 		83598DC7CF8152436C21E5F6 /* libPods-XANStart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XANStart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +218,10 @@
 		04FED1A823559FE7000BFE88 /* Modules(项目的所有模块) */ = {
 			isa = PBXGroup;
 			children = (
+				04FED1C42355B96F000BFE88 /* Home */,
+				04FED1C32355B965000BFE88 /* Message */,
+				04FED1C22355B95E000BFE88 /* Order */,
+				04FED1C12355B950000BFE88 /* Mine */,
 			);
 			path = "Modules(项目的所有模块)";
 			sourceTree = "<group>";
@@ -252,6 +268,74 @@
 				04FED1BF2355A1B6000BFE88 /* NetworkEngine+Login.m */,
 			);
 			path = NetworkEngine;
+			sourceTree = "<group>";
+		};
+		04FED1C12355B950000BFE88 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1D12355B9BD000BFE88 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		04FED1C22355B95E000BFE88 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1CD2355B9AA000BFE88 /* Order */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		04FED1C32355B965000BFE88 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1C92355B991000BFE88 /* Controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		04FED1C42355B96F000BFE88 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1C52355B975000BFE88 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04FED1C52355B975000BFE88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1C62355B98D000BFE88 /* HomeViewController.h */,
+				04FED1C72355B98D000BFE88 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FED1C92355B991000BFE88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1CA2355B9A1000BFE88 /* MessageViewController.h */,
+				04FED1CB2355B9A1000BFE88 /* MessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FED1CD2355B9AA000BFE88 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1CE2355B9B9000BFE88 /* OrderViewController.h */,
+				04FED1CF2355B9B9000BFE88 /* OrderViewController.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		04FED1D12355B9BD000BFE88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04FED1D22355B9D0000BFE88 /* MineViewController.h */,
+				04FED1D32355B9D0000BFE88 /* MineViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		58C4BE5BE1944780CE6BDE7D /* Pods */ = {
@@ -428,15 +512,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FED1B52355A14F000BFE88 /* TabBarController.m in Sources */,
+				04FED1D42355B9D0000BFE88 /* MineViewController.m in Sources */,
 				04FED1B12355A10D000BFE88 /* GrobalConsts.m in Sources */,
 				04FED1C02355A1B6000BFE88 /* NetworkEngine+Login.m in Sources */,
 				04FED17923559F00000BFE88 /* XANStart.xcdatamodeld in Sources */,
 				04FED17323559F00000BFE88 /* ViewController.m in Sources */,
 				04FED18123559F02000BFE88 /* main.m in Sources */,
+				04FED1CC2355B9A1000BFE88 /* MessageViewController.m in Sources */,
+				04FED1C82355B98D000BFE88 /* HomeViewController.m in Sources */,
 				04FED1B92355A167000BFE88 /* NavigationController.m in Sources */,
 				04FED1BD2355A19E000BFE88 /* NetworkEngine.m in Sources */,
 				04FED1AE2355A0DE000BFE88 /* Public.m in Sources */,
 				04FED17023559F00000BFE88 /* AppDelegate.m in Sources */,
+				04FED1D02355B9B9000BFE88 /* OrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
