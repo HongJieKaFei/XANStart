@@ -193,8 +193,8 @@
 		04FED1A523559FB7000BFE88 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				04FED1A923559FFA000BFE88 /* Macro（项目的配置，网络，基类） */,
 				04FED1A823559FE7000BFE88 /* Modules(项目的所有模块) */,
+				04FED1A923559FFA000BFE88 /* Macro（项目的配置，网络，基类） */,
 				04FED1A723559FD2000BFE88 /* Category */,
 				04FED1A623559FBC000BFE88 /* Libs */,
 			);
