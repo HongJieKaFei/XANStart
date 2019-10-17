@@ -101,8 +101,9 @@
      master
     当前分支前面会标一个*号
  30.删除dev分支
-    git branch -d dev
-
+    git branch -D dev
+ 31.把dev分支的工作成果合并到master分支上
+    git merge dev
  
  
  
