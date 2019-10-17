@@ -17,8 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
-   
-    
+    [self setUpViews];
+}
+
+/**
+ 初始化所有子控件
+ */
+-(void)setUpViews{
     
 }
 
